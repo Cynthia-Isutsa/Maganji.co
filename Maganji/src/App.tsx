@@ -9,10 +9,7 @@ const App = () => {
       <div className='basis-[12%] border'><Sidebar /></div>
       <div className='basis-[88%] border'>
         <Dashboardview />
-        <div>
-          <Outlet></Outlet>
-        </div>
-
+      <div><Outlet /></div>
       </div>
 
     </div>
